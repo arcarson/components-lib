@@ -34,7 +34,7 @@ $color-baseline-grid: #005cff;
   height: 30px;
   opacity: 0;
   pointer-events: initial;
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 0;
   transition: opacity .15s linear;
