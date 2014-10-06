@@ -1,0 +1,36 @@
+article, aside, blockquote, body, br,
+button, canvas, caption, col, colgroup,
+dd, div, dl, dt, embed, fieldset, figcaption,
+figure, footer, form, h1, h2, h3, h4, h5, h6,
+header, hgroup, hr, li, map, object, ol,
+output, p, pre, progress, section, table,
+tbody, textarea, tfoot, th, thead, tr, ul, video {
+  margin: 0;
+}
+
+.preload * {
+  transition: none !important;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+input,
+button,
+textarea {
+  line-height: $base-line-height * 2;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+

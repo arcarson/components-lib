@@ -11,11 +11,37 @@
  *= require_self
  */
 
-@import "scaffolding/_mixins";
-@import "scaffolding/_utilities";
 
-@import "scaffolding/_global-variables";
-@import "scaffolding/_base";
-@import "scaffolding/_fontcustom.scss";
-@import "scaffolding/_normalize";
+// ==========================================================================
+//  vendor
+// ==========================================================================
 
+@import "vendor/_modular-scale";
+
+// ==========================================================================
+//  base
+// ==========================================================================
+
+@import "base/_normalize";
+@import "base/_fontcustom.scss";
+@import "base/_global-variables";
+
+@import "base/_mixins";
+@import "base/_utilities";
+
+@import "base/_base";
+@import "base/_typography";
+
+// ==========================================================================
+//  modules
+// ==========================================================================
+
+@import "modules/_col";
+@import "modules/_container";
+@import "modules/_row";
+
+// ==========================================================================
+//  tools
+// ==========================================================================
+
+@import "tools/_baseline-grid";
