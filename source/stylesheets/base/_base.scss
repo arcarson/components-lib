@@ -23,7 +23,7 @@ body,
 input,
 button,
 textarea {
-  line-height: $base-line-height * 2;
+  line-height: $t-base-line-height * 2;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }

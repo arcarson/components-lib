@@ -3,22 +3,22 @@
 // ==========================================================================
 %t-xx-large {
   font-size: ms(4);
-  line-height: $base-line-height * 9;
+  line-height: $t-base-line-height * 9;
 }
 
 %t-x-large {
   font-size: ms(3);
-  line-height: $base-line-height * 6;
+  line-height: $t-base-line-height * 6;
 }
 
 %t-large {
   font-size: ms(2);
-  line-height: $base-line-height * 4;
+  line-height: $t-base-line-height * 4;
 }
 
 %t-medium {
   font-size: ms(1);
-  line-height: $base-line-height * 3;
+  line-height: $t-base-line-height * 3;
 }
 
 %t-base {
@@ -34,31 +34,31 @@
 // ==========================================================================
 h1 {
   @extend %t-xx-large;
-  margin: $base-line-height 0 ($base-line-height * 3) 0;
+  margin: $t-base-line-height 0 ($t-base-line-height * 3) 0;
 }
 
 h2 {
   @extend %t-x-large;
-  margin: $base-line-height 0 ($base-line-height * 3) 0;
+  margin: $t-base-line-height 0 ($t-base-line-height * 3) 0;
 }
 
 h3 {
   @extend %t-large;
-  margin: $base-line-height 0 ($base-line-height * 2) 0;
+  margin: $t-base-line-height 0 ($t-base-line-height * 2) 0;
 }
 
 h4 {
   @extend %t-medium;
-  margin: $base-line-height 0 ($base-line-height * 2) 0;
+  margin: $t-base-line-height 0 ($t-base-line-height * 2) 0;
 }
 
 p {
   @extend %t-base;
-  margin: $base-line-height 0;
+  margin: $t-base-line-height 0;
 }
 
 small {
   @extend %t-small;
   display: block;
-  margin: $base-line-height 0;
+  margin: $t-base-line-height 0;
 }
