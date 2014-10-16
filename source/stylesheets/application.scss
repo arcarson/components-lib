@@ -30,15 +30,20 @@
 @import "base/_utilities";
 
 @import "base/_base";
-@import "base/_typography";
 
 // ==========================================================================
 //  modules
 // ==========================================================================
 
-@import "modules/_col";
 @import "modules/_container";
-@import "modules/_row";
+
+@import "modules/grid/_variables";
+@import "modules/grid/_col";
+@import "modules/grid/_row";
+
+@import "modules/typography/_variables";
+@import "modules/typography/_functions";
+@import "modules/typography/_typography";
 
 // ==========================================================================
 //  utilities

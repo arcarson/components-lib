@@ -23,8 +23,8 @@ $color-baseline-grid: #005cff;
 // ==========================================================================
 
 .baseline-grid__lines {
-  background-image: linear-gradient(transparent $t-base-line-height - 1, rgba($color-baseline-grid,.1) 1px);
-  background-size: 100% $t-base-line-height;
+  background-image: linear-gradient(transparent $spacing-unit - 1, rgba($color-baseline-grid,.1) 1px);
+  background-size: 100% $spacing-unit;
   height: 100%;
   width: 100%;
 }

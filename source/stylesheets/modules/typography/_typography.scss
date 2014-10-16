@@ -1,0 +1,64 @@
+// ==========================================================================
+//  Typographic scale
+// ==========================================================================
+%t-xx-large {
+  font-size: $xx-large-font-size;
+  line-height: calc-line-height($xx-large-font-size, $xx-large-line-height-multiplier);
+}
+
+%t-x-large {
+  font-size: $x-large-font-size;
+  line-height: calc-line-height($x-large-font-size, $x-large-line-height-multiplier);
+}
+
+%t-large {
+  font-size: $large-font-size;
+  line-height: calc-line-height($large-font-size, $large-line-height-multiplier);
+}
+
+%t-medium {
+  font-size: $medium-font-size;
+  line-height: calc-line-height($medium-font-size, $medium-line-height-multiplier);
+}
+
+%t-base {
+  font-size: $base-font-size;
+  line-height: calc-line-height($base-font-size, $base-line-height-multiplier);
+}
+
+%t-small {
+  font-size: $small-font-size;
+  line-height: calc-line-height($small-font-size, $small-line-height-multiplier);
+}
+
+
+h1 {
+  @extend %t-xx-large;
+  margin: $spacing-unit 0 ($spacing-unit * 3) 0;
+}
+
+h2 {
+  @extend %t-x-large;
+  margin: $spacing-unit 0 ($spacing-unit * 3) 0;
+}
+
+h3 {
+  @extend %t-large;
+  margin: $spacing-unit 0 ($spacing-unit * 2) 0;
+}
+
+h4 {
+  @extend %t-medium;
+  margin: $spacing-unit 0 ($spacing-unit * 2) 0;
+}
+
+p {
+  @extend %t-base;
+  margin: $spacing-unit 0;
+}
+
+small {
+  @extend %t-small;
+  display: block;
+  margin: $spacing-unit 0;
+}

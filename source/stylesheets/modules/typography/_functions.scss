@@ -1,0 +1,8 @@
+@function calc-line-height($font-size, $line-height) {
+  @if $line-height == nil {
+    @return ceil($font-size/$spacing-unit) * $spacing-unit;
+  } @else {
+    @return $line-height * $spacing-unit;
+  }
+}
+
