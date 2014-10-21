@@ -1,0 +1,38 @@
+.switch {
+  @extend %clearfix;
+  display: block;
+  transition: all .5s ease;
+}
+
+.switch__input {
+  display: none;
+}
+
+.switch__overwrite {
+  background-color: $switch-off-color;
+  border-radius: 50px;
+  border: solid $switch-border-width $switch-border-color;
+  height: $switch-height;
+  position: relative;
+  transition: inherit;
+  width: $switch-width;
+}
+
+.switch__control {
+  background-color: white;
+  border-radius: 50px;
+  height: $switch-control-size;
+  position: absolute;
+  top: 0;
+  transition: inherit;
+  width: $switch-control-size;
+}
+
+.switch__input:checked ~ .switch__overwrite {
+  background-color: $switch-on-color;
+  border-color: $switch-on-color;
+
+  .switch__control {
+    transform: translateX(100%);
+  }
+}

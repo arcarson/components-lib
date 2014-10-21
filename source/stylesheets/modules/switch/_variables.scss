@@ -1,0 +1,9 @@
+$switch-border-width:  2px;
+$switch-height:        $spacing-unit * 3;
+$switch-width:         ($switch-height * 2) - ($switch-border-width * 2);
+$switch-control-size:  $switch-height - ($switch-border-width * 2);
+
+$switch-border-color:  #aaa;
+$switch-off-color:     #ccc;
+$switch-on-color:      #db7a1a;
+

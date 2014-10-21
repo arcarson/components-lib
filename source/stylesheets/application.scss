@@ -19,12 +19,22 @@
 @import "vendor/_modular-scale";
 
 // ==========================================================================
+//  variables
+// ==========================================================================
+
+@import "modules/grid/_variables";
+@import "modules/typography/_variables";
+@import "modules/switch/_variables";
+
+
+// ==========================================================================
 //  base
 // ==========================================================================
 
+@import "base/_global-variables";
+
 @import "base/_normalize";
 @import "base/_fontcustom.scss";
-@import "base/_global-variables";
 
 @import "base/_mixins";
 @import "base/_utilities";
@@ -37,12 +47,15 @@
 
 @import "modules/_container";
 
-@import "modules/grid/_variables";
 @import "modules/grid/_col";
 @import "modules/grid/_row";
 
-@import "modules/typography/_variables";
+@import "modules/switch/_switch";
+
 @import "modules/typography/_functions";
 @import "modules/typography/_typography";
 @import "modules/typography/_baseline-grid";
+
+
+
 
