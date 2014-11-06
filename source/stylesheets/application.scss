@@ -10,51 +10,58 @@
  *
  *= require_self
  */
-
-
 // ==========================================================================
+//  core
+// ==========================================================================
+
 //  vendor
-// ==========================================================================
+// --------------------------------------
+@import "core/vendor/_modular-scale";
 
-@import "vendor/_modular-scale";
 
-// ==========================================================================
+//  reset
+// --------------------------------------
+@import "core/_normalize";
+
+
+//  mixins/functions/utilities
+// --------------------------------------
+@import "core/_mixins";
+@import "core/_utilities";
+
+
 //  variables
-// ==========================================================================
+// --------------------------------------
+@import "core/_global-variables";
+@import "core/modules/typography/_variables";
 
-@import "modules/grid/_variables";
-@import "modules/typography/_variables";
-@import "modules/switch/_variables";
+//  misc
+// --------------------------------------
+@import "core/_fontcustom.scss";
+@import "core/_base";
 
 
-// ==========================================================================
-//  base
-// ==========================================================================
+//  modules
+// --------------------------------------
+@import "core/modules/typography/_functions";
+@import "core/modules/typography/_typography";
 
-@import "base/_global-variables";
-
-@import "base/_normalize";
-@import "base/_fontcustom.scss";
-
-@import "base/_mixins";
-@import "base/_utilities";
-
-@import "base/_base";
 
 // ==========================================================================
 //  modules
 // ==========================================================================
 
-@import "modules/_container";
+@import "modules/baseline-grid/_variables";
+@import "modules/baseline-grid/_baseline-grid";
 
+@import "modules/container/_container";
+
+@import "modules/grid/_variables";
 @import "modules/grid/_col";
 @import "modules/grid/_row";
 
+@import "modules/switch/_variables";
 @import "modules/switch/_switch";
-
-@import "modules/typography/_functions";
-@import "modules/typography/_typography";
-@import "modules/typography/_baseline-grid";
 
 
 
