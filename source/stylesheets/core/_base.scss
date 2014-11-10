@@ -18,6 +18,10 @@ tbody, textarea, tfoot, th, thead, tr, ul, video {
   box-sizing: border-box;
 }
 
+html {
+  font-size: $spacing-unit;
+}
+
 html,
 body,
 input,

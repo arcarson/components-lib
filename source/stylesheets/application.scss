@@ -24,16 +24,18 @@
 @import "core/_normalize";
 
 
-//  mixins/functions/utilities
-// --------------------------------------
-@import "core/_mixins";
-@import "core/_utilities";
-
-
 //  variables
 // --------------------------------------
 @import "core/_global-variables";
 @import "core/modules/typography/_variables";
+
+
+//  mixins/functions/utilities
+// --------------------------------------
+@import "core/_functions";
+@import "core/_mixins";
+@import "core/_utilities";
+
 
 //  misc
 // --------------------------------------
