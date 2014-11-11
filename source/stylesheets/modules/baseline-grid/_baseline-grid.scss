@@ -16,8 +16,6 @@
 //  Block elements
 // ==========================================================================
 
-@debug parseInt(1rem);
-
 .baseline-grid__lines {
   background-image: linear-gradient(transparent $spacing-unit - 1, rgba($color-baseline-grid,.1) 1px);
   background-size: 100% $spacing-unit;
