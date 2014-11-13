@@ -3,6 +3,14 @@ title: cool title bro...
 ---
 .container
   .row
+    .col.col--6
+      - 5.times do
+        .form-group
+          label.form-group__label Label
+          .form-group__controls
+            input.form-input
+
+  .row
     .col.col--12
       h1 = lorem.words 10
       h2 = lorem.words 10

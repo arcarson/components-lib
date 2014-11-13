@@ -20,16 +20,16 @@ tbody, textarea, tfoot, th, thead, tr, ul, video {
 * + * {
   margin-top: $spacing-unit;
 }
+
 html {
   font-size: $spacing-unit;
 }
 
-html,
 body,
 input,
 button,
 textarea {
-  line-height: $base-line-height * 2;
+  @extend %t-base;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
