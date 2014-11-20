@@ -32,32 +32,38 @@
 }
 
 
-h1 {
+h1,
+.h1 {
   @extend %t-xx-large;
   margin: $spacing-unit 0 ($spacing-unit * 3) 0;
 }
 
-h2 {
+h2,
+.h2 {
   @extend %t-x-large;
   margin: $spacing-unit 0 ($spacing-unit * 3) 0;
 }
 
-h3 {
+h3,
+.h3 {
   @extend %t-large;
   margin: $spacing-unit 0 ($spacing-unit * 2) 0;
 }
 
-h4 {
+h4,
+.h4 {
   @extend %t-medium;
-  margin: $spacing-unit 0 ($spacing-unit * 2) 0;
+  margin: $spacing-unit 0 $spacing-unit 0;
 }
 
-p {
+p,
+.p {
   @extend %t-base;
   margin: $spacing-unit 0;
 }
 
-small {
+small,
+.small {
   @extend %t-small;
   display: block;
   margin: $spacing-unit 0;

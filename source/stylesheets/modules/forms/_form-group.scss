@@ -1,5 +1,6 @@
 .form-group {
-  
+  @extend %clearfix;
+  clear: both;
 }
 
 .form-group__label {
