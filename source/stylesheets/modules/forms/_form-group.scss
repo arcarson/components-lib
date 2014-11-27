@@ -10,3 +10,20 @@
 .form-group__controls {
   margin: 0;
 }
+
+// ==========================================================================
+//  modifiers
+// ==========================================================================
+
+.form-group--inline {
+
+  .form-group__label {
+    float: left;
+    line-height: $spacing-unit * 3;
+  }
+
+  .form-group__controls {
+    margin-left: 100px;
+  }
+
+}
