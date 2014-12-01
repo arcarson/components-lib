@@ -4,6 +4,12 @@
 
 .row {
   @extend %clearfix;
-  margin-left: $grid-col-spacing;
+  margin-left: -$grid-col-spacing--small;
 }
 
+.row--medium-padding {
+  margin-left: -$grid-col-spacing--medium;
+  > .col {
+    padding-left: $grid-col-spacing--medium
+  }
+}
