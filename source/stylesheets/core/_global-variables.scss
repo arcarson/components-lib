@@ -11,6 +11,7 @@ $f-fallbacks:                    sans-font, helvetica, arial, sans-serif;
 
 $color-grey:                     #666;
 $color-grey-light:               adjust-color($color-grey, $lightness: 50);
+$color-grey-lighter:             adjust-color($color-grey, $lightness: 55);
 
 // ==========================================================================
 //  Layout
