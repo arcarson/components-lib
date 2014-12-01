@@ -2,6 +2,36 @@
 title: cool title bro...
 ---
 .container
+
+  .row.row--medium-padding
+    .col.col--4
+      fieldset.fieldset
+        legend.legend Fieldset title
+        - 5.times do
+          .form-group.form-group--inline
+            label.form-group__label Label
+            .form-group__controls
+              input.form-input
+
+    .col.col--8
+      fieldset.fieldset
+        legend.legend Fieldset title
+        - 2.times do
+          .form-group
+            label.form-group__label am-accesibility='sr-only' Label
+            .form-group__controls
+              input.form-input
+
+        - 3.times do
+          .row
+            - 2.times do
+              .col.col--6
+                .form-group
+                  label.form-group__label am-accesibility='sr-only' Label
+                  .form-group__controls
+                    input.form-input
+
+
   .row
     .col.col--12
       h1 = lorem.words 10
@@ -21,15 +51,4 @@ title: cool title bro...
         input.switch__input type='checkbox'
         .switch__overwrite
           .switch__control
-
-  .row
-    - 3.times do
-      .col.col--4
-        fieldset.fieldset
-          legend.legend Fieldset title
-          - 5.times do
-            .form-group.form-group--inline
-              label.form-group__label Label
-              .form-group__controls
-                input.form-input
 
